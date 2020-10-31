@@ -1,5 +1,5 @@
 <?php
-namespace GDO\DogIRC;
+namespace GDO\DogShadowdogs;
 
 use GDO\Core\GDO_Module;
 use GDO\DogShadowdogs\Core\SR_Player;
