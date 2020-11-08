@@ -18,10 +18,10 @@ class SR_Player extends GDO
             GDT_AutoInc::make('player_id'),
             GDT_DogUser::make('player_user'),
             GDT_String::make('player_npc_class'),
-            Strength::make(),
-            Quickness::make(),
-            Wisdom::make(),
-            Melee::make(),
+            Strength::make('player_strength'),
+            Quickness::make('player_quickness'),
+            Wisdom::make('player_wisdom'),
+            Melee::make('player_melee'),
         );
     }
 
