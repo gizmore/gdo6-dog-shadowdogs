@@ -11,7 +11,7 @@ final class Loader
         
         foreach (Shadowdogs::$ATTRIBUTES as $attribute)
         {
-            require ;
+//             require ;
         }
     }
     
