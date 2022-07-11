@@ -2,13 +2,13 @@
 namespace GDO\DogShadowdogs\Core\Items;
 
 use GDO\Core\GDO;
-use GDO\DB\GDT_AutoInc;
-use GDO\DB\GDT_String;
+use GDO\Core\GDT_AutoInc;
+use GDO\Core\GDT_String;
 use GDO\DogShadowdogs\GDT_Player;
 
 class SR_Item extends GDO
 {
-    public function gdoColumns()
+    public function gdoColumns() : array
     {
         return array(
             GDT_AutoInc::make('item_id'),

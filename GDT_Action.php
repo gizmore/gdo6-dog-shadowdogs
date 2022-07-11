@@ -1,7 +1,7 @@
 <?php
 namespace GDO\DogShadowdogs;
 
-use GDO\DB\GDT_Enum;
+use GDO\Core\GDT_Enum;
 
 final class GDT_Action extends GDT_Enum
 {

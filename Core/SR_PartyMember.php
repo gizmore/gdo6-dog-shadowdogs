@@ -3,11 +3,11 @@ namespace GDO\DogShadowdogs\Core;
 
 use GDO\Core\GDO;
 use GDO\DogShadowdogs\GDT_Player;
-use GDO\DB\GDT_Object;
+use GDO\Core\GDT_Object;
 
 final class SR_PartyMember extends GDO
 {
-    public function gdoColumns()
+    public function gdoColumns() : array
     {
         return array(
             GDT_Player::make('player')->primary()->notNull(),

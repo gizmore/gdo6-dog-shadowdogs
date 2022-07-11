@@ -1,7 +1,7 @@
 <?php
 namespace GDO\DogShadowdogs\Core;
 
-use GDO\DB\GDT_Int;
+use GDO\Core\GDT_Int;
 
 abstract class SR_Variable extends GDT_Int
 {

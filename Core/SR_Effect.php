@@ -1,7 +1,7 @@
 <?php
 namespace GDO\DogShadowdogs\Core;
 
-use GDO\DB\GDT_Decimal;
+use GDO\Core\GDT_Decimal;
 
 abstract class SR_Effect extends GDT_Decimal
 {
