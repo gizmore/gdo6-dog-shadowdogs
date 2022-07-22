@@ -5,8 +5,8 @@ use GDO\Core\GDT_Decimal;
 
 abstract class SR_Effect extends GDT_Decimal
 {
-    public $digitsBefore = 5;
-    public $digitsAfter = 1;
+    public int $digitsBefore = 5;
+    public int $digitsAfter = 1;
     
     public static function nextName() { return self::gdoShortNameS(); }
    
