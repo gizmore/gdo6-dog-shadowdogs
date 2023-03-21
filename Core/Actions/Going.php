@@ -3,8 +3,8 @@ namespace GDO\DogShadowdogs\Core\Actions;
 
 final class Going extends Action
 {
-    public function tick()
-    {}
 
-    
+	public function tick() {}
+
+
 }

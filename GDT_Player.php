@@ -6,9 +6,10 @@ use GDO\DogShadowdogs\Core\SR_Player;
 
 final class GDT_Player extends GDT_Object
 {
-    protected function __construct()
-    {
-        $this->table(SR_Player::table());
-    }
-    
+
+	protected function __construct()
+	{
+		$this->table(SR_Player::table());
+	}
+
 }

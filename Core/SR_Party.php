@@ -6,13 +6,14 @@ use GDO\Core\GDT_AutoInc;
 
 final class SR_Party extends GDO
 {
-    public function gdoColumns() : array
-    {
-        return array(
-            GDT_AutoInc::make('party_id'),
-            
-            
-        );
-    }
-    
+
+	public function gdoColumns(): array
+	{
+		return [
+			GDT_AutoInc::make('party_id'),
+
+
+		];
+	}
+
 }

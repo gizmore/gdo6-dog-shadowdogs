@@ -1,7 +1,7 @@
 <?php
 namespace GDO\DogShadowdogs\World\Peine;
 
-final class AmBauhof15 
+final class AmBauhof15
 {
-    
+
 }

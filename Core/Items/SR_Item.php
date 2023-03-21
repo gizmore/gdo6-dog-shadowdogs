@@ -8,16 +8,16 @@ use GDO\DogShadowdogs\GDT_Player;
 
 class SR_Item extends GDO
 {
-    public function gdoColumns() : array
-    {
-        return array(
-            GDT_AutoInc::make('item_id'),
-            GDT_Player::make('item_player'),
-            GDT_String::make('item_name')->ascii()->notNull()->max(64),
-            
-        );
-    }
 
-    
-    
+	public function gdoColumns(): array
+	{
+		return [
+			GDT_AutoInc::make('item_id'),
+			GDT_Player::make('item_player'),
+			GDT_String::make('item_name')->ascii()->notNull()->max(64),
+
+		];
+	}
+
+
 }

@@ -5,9 +5,11 @@ use GDO\Core\GDT_Int;
 
 abstract class SR_Variable extends GDT_Int
 {
-    public int $bytes = 2;
-    
-    public static function nextName() { return self::gdoShortNameS(); }
-    
-    public function adjustPlayer(SR_Player $player) {}
+
+	public int $bytes = 2;
+
+	public static function nextName() { return self::gdoShortNameS(); }
+
+	public function adjustPlayer(SR_Player $player) {}
+
 }

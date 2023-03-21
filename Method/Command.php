@@ -5,9 +5,7 @@ use GDO\Core\Method;
 
 final class Command extends Method
 {
-    public function execute()
-    {
-        
-    }
-    
+
+	public function execute() {}
+
 }

@@ -3,8 +3,8 @@ namespace GDO\DogShadowdogs\Core\Actions;
 
 final class Explore extends Action
 {
-    public function tick()
-    {}
 
-    
+	public function tick() {}
+
+
 }

@@ -3,6 +3,9 @@ namespace GDO\DogShadowdogs\Core;
 
 abstract class SR_Race
 {
-    public abstract function startAttributes();
-    public abstract function maxAttributes();
+
+	abstract public function startAttributes();
+
+	abstract public function maxAttributes();
+
 }
