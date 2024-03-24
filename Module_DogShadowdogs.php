@@ -7,7 +7,12 @@ use GDO\DogShadowdogs\Core\SR_Player;
 final class Module_DogShadowdogs extends GDO_Module
 {
 
-	public function getDependencies(): array { return ['DogAuth']; }
+	public function getDependencies(): array
+    {
+        return [
+            'DogAuth',
+        ];
+    }
 
 	public function onLoadLanguage(): void { $this->loadLanguage('lang/shadowdogs'); }
 
